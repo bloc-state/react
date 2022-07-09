@@ -1,6 +1,6 @@
 {
   "name": "@bloc-state/react-bloc-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react hooks for bloc-state",
   "main": "dist/bloc-state-react.cjs.js",
   "module": "dist/bloc-state-react.esm.js",
