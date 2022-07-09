@@ -13,11 +13,9 @@ const config: Config = {
   },
   globals: {
     rxjs: "rxjs",
-    "rxjs/operators": "rxjs.operators"
+    "rxjs/operators": "rxjs.operators",
   },
-  externals: [
-    "rxjs", "rxjs/operators"
-  ]
+  externals: ["rxjs", "rxjs/operators"],
 };
 
 export default config;

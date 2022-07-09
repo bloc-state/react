@@ -6,10 +6,7 @@ export default class CounterCubit extends Cubit<number> {
     super(0);
   }
 
-  increment = () => 
-    this.emit(this.state + 1);
+  increment = () => this.emit(this.state + 1);
 
-  decrement = () =>
-    this.emit(this.state - 1);
-
+  decrement = () => this.emit(this.state - 1);
 }
