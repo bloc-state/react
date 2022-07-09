@@ -2,14 +2,26 @@
   "name": "@bloc-state/react-bloc-state",
   "version": "1.0.0",
   "description": "react hooks for bloc-state",
-  "main": "index.js",
+  "main": "dist/bloc-state-react.cjs.js",
+  "module": "dist/bloc-state-react.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest --verbose --runInBand",
     "build": "bili",
     "prepublishOnly": "npm run test && npm run build",
     "prepare": "husky install"
   },
-  "author": "",
+   "author": {
+    "name": "Jacob Tipp",
+    "email": "jacobtipp@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobtipp/bloc-state"
+  },
   "license": "ISC",
   "devDependencies": {
     "@testing-library/react-hooks": "^8.0.1",
